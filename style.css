@@ -1,0 +1,277 @@
+#title{
+    background-color: #16213E;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat"; 
+    font-size: 2rem;
+
+}
+
+h3{
+    font-family: "Montserrat"; 
+    font-size: 1.5rem;
+}
+
+
+/* navigation bar  */
+
+.navbar{
+    padding-left: 0;
+    padding-bottom:  4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 40px ;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.Download-button{
+    margin: 5% 3% 5% 0;
+    padding: 0;
+}
+/* title image  */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+} 
+
+/* feature section */
+
+#features{
+    padding: 7% 15% ;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+
+p{
+    color: #8f8f8f;
+}
+
+
+.counter-area {
+    /* background: url(images/featured-bg.svg); */
+    background-color: #16213E;
+	position: relative;
+	padding: 80px 0px;
+}
+
+.wow{
+    text-align: center;
+}
+
+a.single-counter {
+    /* background-color: #3B9AE1; */
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+	color: #fff;
+	padding: 27px 0px;
+	border-radius: 6px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+a.single-counter h1 {
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+a.single-counter p {
+	margin-bottom: 0px;
+}
+
+a.single-counter:hover {
+	/* box-shadow: 0px 0px 10px #2d4074; */
+    text-decoration: none;
+}
+.feature-image{
+	width: 50%;
+	text-align: center;
+}
+
+
+.contact-area {
+	padding-top: 100px;
+	padding-bottom: 235px;
+	position: relative;
+	z-index: 1;
+}
+
+.contact-area:after {
+	/* -webkit-transform: skewY(-2deg); */
+	/* transform: skewY(-2deg); */
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: -1;
+	background-image: -webkit-linear-gradient(0deg, #293462 0%, #A084CA 60%, #533483 100%);
+	background-image: -ms-linear-gradient(0deg, #293462 0%, #A084CA 60%, #533483 100%);
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+	width: 100%;
+	border: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 4px;
+	opacity: 9;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.contact-form textarea {
+	height: 150px;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.contact-form {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}
+
+.contact-form form input[type="submit"] {
+	width: 100%;
+	border: none;
+	font-weight: 500;
+	padding: 14px;
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	border-radius: 3px;
+	background-image: -webkit-linear-gradient(0deg, #25316D 0%, #A460ED 60%, #533483 100%);
+	background-image: -ms-linear-gradient(0deg, #25316D 0%, #A460ED 60%, #533483 100%);
+}
+
+
+.contact-form-right {
+    background-color: #fff;
+    border-radius: 10px;
+	padding: 55px 50px 17px 50px;
+	margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+	.contact-form-right {
+		margin-top: 70px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.contact-form-right {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}
+
+.contact-form-right-single {
+	margin-bottom: 30px;
+}
+
+.contact-form-right-single h5 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.contact-form-right-single p {
+	margin-bottom: 0px;
+}
+
+.contact-form-right-single a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.social-handle{
+	padding: 10px;
+	height: 10%;
+	width: 10%;
+}
+
+.footer-logo{
+	padding-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.footer-as a{
+	color: #fff;
+	text-decoration: none;
+}
+@media (max-width: 1400px) {
+	.social-handle{
+		height: 10%;
+		width: 10%;
+		padding: 10px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	a.single-counter {
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	a.single-counter {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}
+
+@media (max-width : 1028px) {
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
