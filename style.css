@@ -226,22 +226,15 @@ a.single-counter:hover {
     color: #fff;
 }
 
-.social-handle{
-	padding: 10px;
-	height: 10%;
-	width: 10%;
-}
-
-.footer-logo{
-	padding-top: 70px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
+.social-icons{
+	text-decoration: none;
+	color: #fff;
+	padding: auto;
 }
 .footer-as a{
 	color: #fff;
 	text-decoration: none;
-}
+} 
 @media (max-width: 1400px) {
 	.social-handle{
 		height: 10%;
@@ -273,5 +266,9 @@ a.single-counter:hover {
         position: static;
         transform: rotate(0);
     }
+	h1{
+		font-size: 1rem;
+		line-height: 1;
+	}
 
 }
